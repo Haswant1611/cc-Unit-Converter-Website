@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        <meta name="viewport" content="width=device-width, initial scale 1.0">
+        <title>CODE CLAUSE UNIT CONVERTOR</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="block">
+            <h1>Area Convertor</h1>
+            <div class="toc">
+                <a href="tempcon.html"> TEMPERATURE CONVERTOR</a>
+                <a href="index.html"> LENGTH CONVERTOR</a>
+                <a href="area.html"> AREA CONVERTOR</a>
+            </div>
+
+            <div class="texts">
+                <input type="text" placeholder="enter value" id="input"> 
+                <select id="input-type">
+                    <option value="sft">Square-feet</option>
+                    <option value="sin">Square Inches</option>
+                    <option value="sqm">Square-Metres</option>
+                </select>
+            </div>
+            
+            <h2>=</h2>
+
+            <div class="texts">
+                <input type="text" placeholder="enter value" id="result">
+                <select  id="result-type">
+                    <option value="sft">Square-feet</option>
+                    <option value="sin">Square Inches</option>
+                    <option value="sqm">Square-Metres</option>
+                </select>
+            </div>
+            <button id="submit" onclick="myResult()">Convert</button>
+        </div>
+        <script src="areacon.js"></script>
+    </body>
+</html>

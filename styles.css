@@ -1,0 +1,119 @@
+body{
+    background: linear-gradient(90deg,red, blue,green );
+}
+
+.block{
+    display:block;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    padding: 40px;
+    width: 1000px;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    align-items: center; 
+    border: 3px solid #f34fde;
+    background:#1c5333;
+}
+
+.block h1{
+	text-align: center;
+  color: #fff;
+  font-size: 50px;
+  border: 2px ;
+  font-weight: 500;
+}
+.block h2{
+    color: #fff;
+    padding-left: 445px;
+    font-size: 30px;
+    border: 5px;
+}
+
+.texts
+{
+    text-align: center;
+}
+
+ .toc a{
+    float: left;
+    list-style-type: none;
+    text-decoration: none;
+     border:0;
+    background: none;
+    display: flex;
+    margin: 20px auto;
+    margin-right: 8px;
+    border: 2px solid #2ecc71;
+    padding: 14px 65px;
+    outline: none;
+    color: white;
+    max-width:100%;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  a:hover
+  {
+  background: #2ecc71;
+  }
+  
+.block input[type = "text"]{
+    border:0;
+    background: none;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px ;
+    width: 200px;
+    outline: none;
+    color: white;
+    font-size: 33px;
+    border-radius: 20px;
+    transition: 0.25s;
+  }
+  
+  .block input[type = "text"]:hover
+  {
+    width: 220px;
+    color: yellow;
+    font-size: 33px;
+    border-color: #2ecc71;
+  }
+  
+  .block select{
+      border:0;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 20px;
+    background-color: aqua;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  
+  .block select:hover
+  {
+    border-color: #2ecc71;
+  }
+  
+  #input-Type,#result-Type{
+      width: 120px;
+      text-align: center;
+      color: black;
+  }
+  
+  #submit{
+    padding: 10px 12px;
+    margin-left: 400px;
+    border-radius: 25px;
+    background: #2ecc71;
+    color: #fff;
+    border: 3px sandybrown;
+  }
+
+  #submit:hover{
+    background-color: yellowgreen;
+  }
